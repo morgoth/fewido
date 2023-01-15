@@ -5,3 +5,7 @@ body {
 .logo-text {
   font-size: 2rem;
 }
+
+#main-navbar {
+  background-color:#DFE2D2;
+}
