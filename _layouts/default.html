@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="/assets/css/main.css">
   </head>
   <body class="d-flex flex-column h-100 bg-light">
-    <nav id="main-navbar" class="navbar navbar-expand-lg rounded">
+    <nav class="navbar navbar-expand-lg rounded">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Nawigacja">
           <span class="navbar-toggler-icon"></span>
@@ -36,14 +36,23 @@
         </div>
       </div>
     </nav>
-    <section class="container">{{ content }}</section>
+    <section class="container">
+      <hr>
+      {{ content }}
+    </section>
     <footer class="mt-auto py-3 bg-light">
       <div class="container ">
-        <p class="text-end text-muted">
-          <a href="https://www.instagram.com/fewido/" class="btn btn-outline-secondary"><img src="/assets/images/instagram.svg" alt="instagram" title="Instagram"> @fewido</a>
-          <a href="https://twitter.com/FeWiDo2021" class="btn btn-outline-secondary"><img src="/assets/images/twitter.svg" alt="twitter" title="Twitter"> @FeWiDo2021</a>
-          <a href="mailto:kontakt@fewido.pl" class="btn btn-outline-secondary"><img src="/assets/images/envelope.svg" alt="email" title="Email"> kontakt@fewido.pl</a>
-        </p>
+        <div class="text-center text-muted">
+          <p class="d-md-inline d-sm-block">
+            <a href="https://www.instagram.com/fewido/" class="btn btn-outline-secondary"><img src="/assets/images/instagram.svg" alt="instagram" title="Instagram"> @fewido</a>
+          </p>
+          <p class="d-md-inline d-sm-block">
+            <a href="https://twitter.com/FeWiDo2021" class="btn btn-outline-secondary"><img src="/assets/images/twitter.svg" alt="twitter" title="Twitter"> @FeWiDo2021</a>
+          </p>
+          <p class="d-md-inline d-sm-block">
+            <a href="mailto:kontakt@fewido.pl" class="btn btn-outline-secondary"><img src="/assets/images/envelope.svg" alt="email" title="Email"> kontakt@fewido.pl</a>
+          </p>
+        </div>
       </div>
     </footer>
   </body>
