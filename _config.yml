@@ -1,7 +1,7 @@
 # SEO tag
 title: Festiwal Wina Domowego
-description: Festiwal wina domowego zrzeszający miłośników domowych trunków z Gilowic i okolic
 url: "https://fewido.pl"
+locale: "pl_PL"
 twitter:
   username: FeWiDo2021
   card: summary
@@ -15,3 +15,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: "/assets/images/fewido.png"
