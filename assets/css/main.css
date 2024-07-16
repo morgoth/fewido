@@ -5,3 +5,11 @@ body {
 .logo-text {
   font-size: 2rem;
 }
+
+.bg-color-50 {
+  background-color: #F4F8F9;
+}
+
+.bg-color-100 {
+  background-color: #EBF3F4;
+}
