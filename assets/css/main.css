@@ -13,3 +13,45 @@ body {
 .bg-color-100 {
   background-color: #EBF3F4;
 }
+
+.pop-bubble {
+  animation: pop 5s;
+  animation-iteration-count: infinite;
+}
+
+.first-bubble {
+  animation: disappear 5s;
+  animation-iteration-count: infinite;
+}
+
+.second-bubble {
+  animation: disappear 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pop {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
